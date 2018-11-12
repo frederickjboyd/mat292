@@ -1,0 +1,161 @@
+\documentclass{article}
+\usepackage[margin=1in, letterpaper]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amssymb}
+
+\setcounter{section}{3}
+
+\title{MAT292 - Lab 4 - Exercise 4}
+\author{Frederick Boyd}
+\date{November 4, 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+
+% (a) Generate a phase portrait for the system (centre the graph on the
+% equilibrium point at (0,0)). Include a few trajectories.
+%
+% (b) Classify the equilibrium on asymptotic stability, and behaviour 
+% (sink, source, saddle-point, spiral, center, proper node, improper node) 
+% - check table 3.5.1 and figure 3.5.7.
+% Classify also as for clockwise or counterclockwise movement, when relevant.
+%
+% (c) Compute the eigenvalues of the matrix (you do not need to show your
+% calculations). Using the eigenvalues you computed, justify part (b).
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.1}.png}
+	\end{figure}
+	\item Source node
+	\item $\lambda_1 = \frac{5+\sqrt{5}}{2}$, $\lambda_2 = \frac{5-\sqrt{5}}{2}$
+
+	      $\lambda_1 > \lambda_2 > 0$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.2}.png}
+	\end{figure}
+	\item Sink node
+	\item $\lambda_1 = \frac{-5 + \sqrt{5}}{2}$, $\lambda_2 = \frac{-5 - \sqrt{5}}{2}$
+
+	      $\lambda_1 < \lambda_2 < 0$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.3}.png}
+	\end{figure}
+	\item Saddle point (unstable)
+	\item $\lambda_1 = -1$, $\lambda_2 = 2$
+
+	      $\lambda_1 < 0 < \lambda_2$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.4}.png}
+	\end{figure}
+	\item Saddle point (unstable)
+	\item $\lambda_1 = 1$, $\lambda_2 = -2$
+
+	      $\lambda_2 < 0 < \lambda_1$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.5}.png}
+	\end{figure}
+	\item Spiral counterclockwise (stable)
+	\item $\lambda_1 = -\frac{1}{2} + i\frac{\sqrt{3}}{2}$, $\lambda_2 = -\frac{1}{2} - i\frac{\sqrt{3}}{2}$
+
+	      $\lambda_1, \lambda_2 = \mu \pm \alpha i \rightarrow \mu < 0$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.6}.png}
+	\end{figure}
+	\item Spiral clockwise (unstable)
+	\item $\lambda_1 = \frac{1}{2} + i\frac{\sqrt{3}}{2}$, $\lambda_2 = \frac{1}{2} - i\frac{\sqrt{3}}{2}$
+
+	      $\lambda_1, \lambda_2 = \mu \pm \alpha i \rightarrow \mu > 0$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.7}.png}
+	\end{figure}
+	\item Stable center (clockwise)
+	\item $\lambda_1 = 2i$, $\lambda_2 = -2i$
+
+	      $\lambda_1, \lambda_2 = \pm \alpha i$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.8}.png}
+	\end{figure}
+	\item Stable center (counterclockwise)
+	\item $\lambda_1 = 2i$, $\lambda_2 = -2i$
+
+	      $\lambda_1, \lambda_2 = \pm \alpha i$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.9}.png}
+	\end{figure}
+	\item Stable center (clockwise)
+	\item $\lambda_1 = i$, $\lambda_2 = -i$
+
+	      $\lambda_1, \lambda_2 = \pm \alpha i$
+\end{enumerate}
+\pagebreak
+
+\subsection{}
+\begin{enumerate}[label=\alph*)]
+	\setcounter{enumi}{1}
+	\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{{4.10}.png}
+	\end{figure}
+	\item Stable center (counterclockwise)
+	\item $\lambda_1 = i$, $\lambda_2 = -i$
+
+	      $\lambda_1, \lambda_2 = \pm \alpha i$
+\end{enumerate}
+\pagebreak
+
+\end{document}
